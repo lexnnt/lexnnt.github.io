@@ -4,9 +4,11 @@
     <title>resume temp title</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
+
   <body>
     <nav class="navbar">
       <h1 class="logo"><a href="index.html">Personal Website</a></h1>
+
       <ul class="nav-list">
         <li><a href="index.html">Home</a></li>
         <li><a href="blog.html">Blog</a></li>
@@ -15,62 +17,71 @@
         <li><a href="contact.html">Contact</a></li>
       </ul>
     </nav>
+
     <main>
       <h1 class="page-title"><em>Resume</em></h1>
+
       <a href="resume.pdf" download>Download Resume</a>
+
       <div class="section">
         <h2 class="section-title">Education</h2>
 
         <div class="entry">
           <h3 class="entry-title">
-            Bachelor of Science in Software Engineering<br />California
-            Polytechnic State Univerty, San Luis Obispo
+            Bachelor of Science in Software Engineering<br />
+            California Polytechnic State Univerty, San Luis Obispo
           </h3>
+
           <p class="entry-info">Graduation Date or GPA</p>
           <p class="entry-description">Any honors or relevant details here.</p>
         </div>
       </div>
 
-      <div class="section">
-        <h2 class="section-title">Coursework</h2>
+      <!-- These three sections will line up next to each other -->
+      <div class="resume-columns">
+        <div class="section">
+          <h2 class="section-title">Coursework</h2>
 
-        <div class="entry">
-          <ul class="Coursework">
-            <li>CSC 2050 System Software Mechanics</li>
-            <li>CSC 3100 Software Engineering</li>
-            <li></li>
-            <li></li>
-            <li></li>
-          </ul>
+          <div class="entry">
+            <ul class="Coursework">
+              <li>CSC 2050 System Software Mechanics</li>
+              <li>CSC 3100 Software Engineering</li>
+              <li></li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
         </div>
-      </div>
 
-      <div class="section">
-        <h2 class="section-title">Skills</h2>
+        <div class="section">
+          <h2 class="section-title">Skills</h2>
 
-        <div class="entry">
-          <ul class="Skills">
-            <li>HTML / CSS</li>
-            <li>Java / JavaScript</li>
-            <li>Git / GitHub</li>
-          </ul>
+          <div class="entry">
+            <ul class="Skills">
+              <li>HTML / CSS</li>
+              <li>Java / JavaScript</li>
+              <li>Git / GitHub</li>
+            </ul>
+          </div>
         </div>
-      </div>
 
-      <div class="section">
-        <h2 class="section-title">Projects</h2>
+        <div class="section">
+          <h2 class="section-title">Projects</h2>
 
-        <div class="entry">
-          <h3 class="entry-title">Project Name</h3>
-          <p class="entry-info">Role / Date</p>
-          <p class="entry-description">
-            <!-- Describe what you built and the tools you used.-->
-          </p>
+          <div class="entry">
+            <h3 class="entry-title">Project Name</h3>
+            <p class="entry-info">Role / Date</p>
+
+            <p class="entry-description">
+              <!-- Describe what you built and the tools you used. -->
+            </p>
+          </div>
         </div>
       </div>
     </main>
 
     <footer class="footer">© 2023 Alexa's Website | All Rights Reserved</footer>
   </body>
+
   <!-- <tag>text content</tag> -->
 </html>
