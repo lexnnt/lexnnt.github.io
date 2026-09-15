@@ -275,9 +275,3 @@ form {
     grid-template-columns: 1fr;
   }
 }
-
-main {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 2rem;
-}
